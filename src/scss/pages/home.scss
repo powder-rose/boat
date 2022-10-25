@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url("../../design/images/background-wave.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 6rem;
+}
+
+.main-home__img {
+    width: 30%;
+    margin-right: 7rem;
+    margin-top: 10rem;
+}
+
+.main-description {
+    width: 40%;
+    margin-top: 20rem;
+    color: $white;
+    margin-bottom: 8rem;
+    .main-description__header {
+        margin-bottom: 4rem;
+    }
+}
+

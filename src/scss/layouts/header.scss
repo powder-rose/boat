@@ -1,0 +1,40 @@
+.header {
+    background-color: #254E6B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    height: 6.5rem;
+}
+
+.header__img {
+    width: 7vw;
+    margin-left: 2rem;
+}
+
+.nav {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: $white;
+    &:hover{
+        color: $pale-white;
+    }
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    line-height: 1.8em;
+    font-size: 0.8rem;
+    color: $pale-white;
+    
+}
+

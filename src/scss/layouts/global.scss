@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+$bold: 'Russo One', sans-serif;
+$thin: 'Roboto Flex', sans-serif; 
+
+$blue: #254E6B;
+$sea-blue: #2F5B7A;
+$button-color: #18354A;
+$white: #fff;
+$pale-white: #dedede;
+
+.bold-text {
+    font-family: $bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.thin-text {
+    font-family: $thin;
+    font-weight: 400;
+    font-size: 24px;
+}
