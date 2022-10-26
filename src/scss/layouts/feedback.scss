@@ -1,0 +1,68 @@
+.feedback {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $blue;
+    .feedback__header {
+        width: 100%;
+        box-sizing: border-box;
+        background: $dark-blue;
+        padding: 6%;
+        text-align: center;
+        color: $white;
+        margin-top: 0;
+    }
+
+    .feedback__text {
+        margin-bottom: 2rem;
+        margin: 4%;
+        width: 50%;
+        text-align: center;
+        font-size: 1.5rem;
+        color: $white;
+    }
+}
+
+.feedback-form {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    .username {
+        border: none;
+        height: 50px;
+        width: 280px;
+        text-indent: 5%;
+        margin: 20px;
+        &:active {
+            border: none;
+        }
+    }
+    .user-phone {
+        border: none;
+        height: 50px;
+        width: 280px;
+        text-indent: 5%;
+        margin: 20px;
+        &:active {
+            border: none;
+        }
+    }
+
+    .user-message {
+        box-sizing: border-box;
+        resize: none;
+        width: 610px;
+        height: 300px;
+        padding-left: 9px;
+        padding-top: 20px;
+        margin-bottom: 2rem;
+        &:active {
+            border: none;
+        }
+    }
+}
+

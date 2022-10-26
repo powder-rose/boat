@@ -1,7 +1,7 @@
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
   \******************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap);
 /*!**********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss (1) ***!
   \**********************************************************************************************************************************************************/
@@ -17,7 +17,7 @@
 
 .thin-text {
   font-family: "Roboto Flex", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -60,7 +60,7 @@
   color: #dedede;
 }
 
-.main {
+.welcome {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,20 +68,173 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 6rem;
+  margin-bottom: 5rem;
 }
 
-.main-home__img {
+.welcome__img {
   width: 30%;
   margin-right: 7rem;
   margin-top: 10rem;
 }
 
-.main-description {
+.text {
   width: 40%;
   margin-top: 20rem;
   color: #fff;
   margin-bottom: 8rem;
 }
-.main-description .main-description__header {
+.text .text__header {
   margin-bottom: 4rem;
+}
+
+.description {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-content: center;
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+
+.description__text {
+  width: 70%;
+  color: #254E6B;
+}
+
+.catalog {
+  display: flex;
+  background-color: #254E6B;
+  justify-content: space-around;
+  align-content: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.catalog__header {
+  width: 100%;
+  color: #fff;
+  letter-spacing: 0.2em;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.boat {
+  width: 400px;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.boat__img {
+  width: 400px;
+  height: 300px;
+  border-radius: 22px;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.catalog-btn {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+.btn {
+  width: 280px;
+  height: 60px;
+  border-radius: 22px;
+  border: none;
+  background-color: #18354A;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 0.1em;
+  margin: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.fish-image {
+  width: 15%;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #2F5B7A;
+}
+
+.footer__tel {
+  margin: 0;
+}
+
+.footer-nav {
+  margin: 0;
+}
+
+.feedback {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #254E6B;
+}
+.feedback .feedback__header {
+  width: 100%;
+  box-sizing: border-box;
+  background: #1C3151;
+  padding: 6%;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+.feedback .feedback__text {
+  margin-bottom: 2rem;
+  margin: 4%;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.feedback-form {
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.feedback-form .username {
+  border: none;
+  height: 50px;
+  width: 280px;
+  text-indent: 5%;
+  margin: 20px;
+}
+.feedback-form .username:active {
+  border: none;
+}
+.feedback-form .user-phone {
+  border: none;
+  height: 50px;
+  width: 280px;
+  text-indent: 5%;
+  margin: 20px;
+}
+.feedback-form .user-phone:active {
+  border: none;
+}
+.feedback-form .user-message {
+  box-sizing: border-box;
+  resize: none;
+  width: 610px;
+  height: 300px;
+  padding-left: 9px;
+  padding-top: 20px;
+  margin-bottom: 2rem;
+}
+.feedback-form .user-message:active {
+  border: none;
 }

@@ -1,27 +1,97 @@
-.main {
+.welcome {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-image: url("../../design/images/background-wave.svg");
     background-repeat: no-repeat;
     background-size:cover;
     margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 
-.main-home__img {
+.welcome__img {
     width: 30%;
     margin-right: 7rem;
     margin-top: 10rem;
 }
 
-.main-description {
+.text {
     width: 40%;
     margin-top: 20rem;
     color: $white;
     margin-bottom: 8rem;
-    .main-description__header {
+    .text__header {
         margin-bottom: 4rem;
     }
 }
 
+.description {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+    margin-bottom: 8rem;
+}
+
+.description__text {
+    width: 70%;
+    color: $blue;
+}
+
+.catalog {
+    display: flex;
+    background-color: $blue;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.catalog__header {
+    width: 100%;
+    color: $white;
+    letter-spacing: 0.2em;
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.boat {
+    width: 400px;
+    margin-bottom: 3rem;
+    color: $white;
+}
+
+.boat__img {
+    width: 400px;
+    height: 300px;
+    border-radius: 22px;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.catalog-btn {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.btn {
+    width: 280px;
+    height: 60px;
+    border-radius: 22px;
+    border: none;
+    background-color: $button-color;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $bold;
+    letter-spacing: 0.1em;
+    margin: 20px;
+        &:hover {
+        cursor: pointer;
+    }
+}
+
+.fish-image {
+    width: 15%;
+}
