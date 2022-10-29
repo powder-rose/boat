@@ -5,12 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/normalize.css">
     <link rel="stylesheet" href="../dist/css/main.css">
-    <title>Document</title>
+    <title>Каталог</title>
 </head>
 
 <body>
+    <header class="header bold-text">
+        <img class="header__img" src="./images/logo.svg" alt="Логотип">
+        <nav>
+            <ul class="nav bold-text">
+                <li><a class="nav__link" href="./index.html">Главная</a></li>
+                <li><a class="nav__link" href="./catalog.html">Каталог</a></li>
+                <li><a class="nav__link" href="./about.html">О Компании</a></li>
+                <li><a class="nav__link" href="./news.html">Новости</a></li>
+                <li><a class="nav__link" href="#">Аренда</a></li>
+            </ul>
+        </nav>
+        <div class="phones bold-text">
+            <p>+7 (900) 000-00-00<br>
+                +7 (900) 000-00-00</p>
+        </div>
+    </header>
 
+    <main class="catalog">
+        <h1 class="title bold-text">Каталог</h1>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/chantier_navals.jpg" alt="Яхта Chantier Navals de Normandie 102"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Chantier Navals de Normandie 102</p>
+            </a>
+            <p class="price thin-text">4 255 690 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/swan.jpg" alt="Яхта Nautor's Swan 112 SONG OF THE SEA"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Nautor's Swan 112 SONG OF THE SEA</p>
+            </a>
+            <p class="price thin-text">3 850 000 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/rivafolgore.jpg" alt="Яхта 88' 2022 RIVA FOLGORE"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">88' 2022 RIVA FOLGORE</p>
+                <p class="price thin-text">9 936 690 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/acury.jpg" alt="Яхта Acury MY 39"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Acury MY 39</p>
+            </a>
+            <p class="price thin-text">16 000 000 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/curvelle-quaranta.jpg" alt="Яхта Curvelle Quaranta"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Curvelle Quaranta</p>
+            </a>
+            <p class="price thin-text">8 350 000 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/sanlorenzo.jpg" alt="Яхта Sanlorenzo 96 ACE"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Sanlorenzo 96 ACE</p>
+            </a>
+            <p class="price thin-text">7 900 000 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/frauscher.jpg" alt="Яхта Frauscher 1017 GT"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Frauscher 1017 GT</p>
+            </a>
+            <p class="price thin-text">295 000 €</p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/princess.jpg" alt="Яхта Princess Y72 Y72024"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Princess Y72 Y72024</p>
+            </a>
+            <p class="price thin-text">4 255 690 € </p>
+        </div>
+
+        <div class="boat">
+            <a href="#"><img class="boat-img" src="./images/tecnomar_velvet.jpg" alt="Яхта Tecnomar Velvet 90<"></a>
+            <a href="#">
+                <p class="boat__description boat__description_dark bold-text">Tecnomar Velvet 90</p>
+            </a>
+            <p class="price thin-text">1 450 000 €</p>
+        </div>
+
+    </main>
+
+    <section class="feedback">
+        <h2 class="feedback__header bold-text">Нужна помощь с выбором или хотите задать вопрос?</h2>
+        <p class="feedback__text bold-text">Заполните форму ниже и наши специалисты свяжутся с вами!</p>
+
+
+        <form action="#" method="post" class="feedback-form">
+            <label for="username">
+                <input type="text" id="username" class="username bold-text" name="name" placeholder="Ваше имя" required>
+            </label>
+            <label for="user-phone">
+                <input type="tel" id="user-phone" class="user-phone bold-text" name="phone" placeholder="Ваш телефон" required>
+            </label>
+            <textarea name="message" id="user-message" class="user-message bold-text" placeholder=" Сообщение"></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__tel phones bold-text"><span class="bright-text">Покупка</span> +7 (000) 000 00 00 <span>+7 (000) 000 00 00</span></p>
+        <p class="footer__tel phones bold-text"><span class="bright-text">Аренда</span> +7 (400) 000 00 00 </p>
+        <nav>
+            <ul class="footer-nav nav bold-text">
+                <li><a class="nav__link" href="#">Главная</a></li>
+                <li><a class="nav__link" href="./catalog.html">Каталог</a></li>
+                <li><a class="nav__link" href="./about.html">О Компании</a></li>
+                <li><a class="nav__link" href="./news.html">Новости</a></li>
+                <li><a class="nav__link" href="#">Аренда</a></li>
+            </ul>
+        </nav>
+        <p class="footer__adds bold-text">123456 Морская область, г. Морской, ул. Морская, д. 1</p>
+        <div class="social">
+            <a class="social__link" href="#"><img src="./images/instagram-ico.svg" alt="Иконка инстаграма"></a>
+            <a class="social__link" href="#"><img src="./images/facebook-ico.svg" alt="Иконка фейсбука"></a>
+            <a class="social__link" href="#"><img src="./images/telegram-ico.svg" alt="Иконка телеграма"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

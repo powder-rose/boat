@@ -2,13 +2,48 @@
     display: flex;
     flex-flow: row wrap;
     background-color: $sea-blue;
+    padding: 2%;
+    box-sizing: border-box;
+    height: 220px;
+    align-items: start;
+    .footer__tel {
+        margin: 0;
+        flex-basis: 22%;
+        margin-bottom: 2rem;
+        color: $pale-blue;
+        .bright-text {
+            color: #87BDE3;
+        }
+    }
+
+    .footer-nav {
+        margin: 0;
+        flex-grow: 1;
+    }
+
+    .footer__adds {
+        width: 22%;
+        font-size: 0.8rem;
+        color: $pale-blue;
+        
+        }
+
+        .social {
     
+            flex-basis: 50%;
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 1;
+            margin-right: 1rem;
+            img {
+                margin: 0.5rem;
+                width: 40px;
+            }
+        }
 }
-.footer__tel {
-    margin: 0;
 
-}
 
-.footer-nav {
-    margin: 0;
-}
+
+
+
+

@@ -1,4 +1,4 @@
-.welcome {
+.home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,22 +7,23 @@
     background-size:cover;
     margin-top: 6rem;
     margin-bottom: 5rem;
-}
 
-.welcome__img {
-    width: 30%;
-    margin-right: 7rem;
-    margin-top: 10rem;
-}
-
-.text {
-    width: 40%;
-    margin-top: 20rem;
-    color: $white;
-    margin-bottom: 8rem;
-    .text__header {
-        margin-bottom: 4rem;
+    .home__img {
+        width: 30%;
+        margin-right: 7rem;
+        margin-top: 10rem;
     }
+
+    .home-text {
+        width: 40%;
+        margin-top: 20rem;
+        color: $white;
+        margin-bottom: 8rem;
+    }
+
+    .home-text__header {
+            margin-bottom: 4rem;
+        }
 }
 
 .description {
@@ -32,66 +33,45 @@
     align-content: center;
     font-weight: 500;
     margin-bottom: 8rem;
+    
+
+    .description__text {
+        margin-bottom: 4rem;
+        width: 60%;
+        color: $blue;
+        
+    }
 }
 
-.description__text {
-    width: 70%;
-    color: $blue;
-}
-
-.catalog {
+.catalog-mini {
     display: flex;
     background-color: $blue;
     justify-content: space-around;
     align-content: center;
     flex-flow: row wrap;
     text-align: center;
-}
-.catalog__header {
-    width: 100%;
-    color: $white;
-    letter-spacing: 0.2em;
-    font-size: 1.8rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-}
+    .catalog-mini__header {
+        width: 100%;
+        color: $white;
+        letter-spacing: 0.2em;
+        font-size: 1.8rem;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
 
-.boat {
-    width: 400px;
-    margin-bottom: 3rem;
-    color: $white;
-}
+    .catalog-mini-btn {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 7rem;
+        margin-top: 2rem;
+    }
 
-.boat__img {
-    width: 400px;
-    height: 300px;
-    border-radius: 22px;
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.catalog-btn {
-    margin: auto;
-    width: 100%;
-    margin-bottom: 7rem;
-}
-
-.btn {
-    width: 280px;
-    height: 60px;
-    border-radius: 22px;
-    border: none;
-    background-color: $button-color;
-    color: $white;
-    text-transform: uppercase;
-    font-family: $bold;
-    letter-spacing: 0.1em;
-    margin: 20px;
-        &:hover {
-        cursor: pointer;
+    .fish-image {
+        width: 15%;
     }
 }
 
-.fish-image {
-    width: 15%;
-}
+
+
+
+

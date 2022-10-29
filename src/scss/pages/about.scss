@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+    color: $blue;
+    .about__img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 8rem;
+    }
+    .about__text {
+        width: 90%;
+        text-indent: 0;
+        
+    }
+
+    .about__fish {
+        transform: scale(-1, 1) 
+    }
+}
+
+.welcome {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    .welcome__text {
+        margin-bottom: 10rem;
+        color: $blue;
+        width: 60%;
+    }
+    .welcome__img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: -10px;
+    }
+}
+
